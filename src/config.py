@@ -1,0 +1,15 @@
+# config.py
+URL = "https://webscraper.io/test-sites/e-commerce/ajax"
+COMPUTERS_LINK_XPATH = "//a[@href='/test-sites/e-commerce/ajax/computers']"
+LAPTOPS_LINK_XPATH  = "//a[@href='/test-sites/e-commerce/ajax/computers/laptops']"
+TABELETS_LINK_XPATH = "//a[@href='/test-sites/e-commerce/ajax/computers/tablets']"
+PHONES_LINK_XPATH  = "//a[@href='/test-sites/e-commerce/ajax/phones']"
+TOUCH_LINK_XPATH  = "//a[@href='/test-sites/e-commerce/ajax/phones/touch']"
+ACCPET_BUTTON_CSS_SELECTOR = "button.acceptCookies"
+SPEC_TO_CLICK = ["128", "256", "512", "1024"]
+PRODUCT_ELEMENTS_XPATH = "//a[contains(@href, '/test-sites/e-commerce/ajax/product/') and contains(@class, 'title')]"
+DESCRIPTION_XPATH  = "//p[@class='description card-text']"
+STARS_XPATH  = "//div[@class='ratings']//span[contains(@class, 'ws-icon-star')]"
+REVIEW_COUNT_ELEMENT_XPATH  = "//span[@itemprop='reviewCount']"
+PRICE_ELEMENT_XPATH  = "//h4[@class='price float-end pull-right']"
+ACTIVE_BUTTON = "//button[contains(@class, 'page') and contains(@class, 'active')]"

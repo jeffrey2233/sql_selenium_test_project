@@ -1,0 +1,22 @@
+# 忽略 .env 機密設定
+.env
+
+# 忽略 Excel 匯出檔案，但保留資料夾
+data/excel_file/*
+!data/excel_file/.gitkeep
+
+# 忽略 driver 執行檔，但保留資料夾
+src/driver_utils/driver/*
+!src/driver_utils/driver/.gitkeep
+
+# Python 編譯產物
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode 設定（如果有）
+.vscode/
+
+# OS 系統垃圾檔案
+.DS_Store
+Thumbs.db
